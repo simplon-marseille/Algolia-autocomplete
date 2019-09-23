@@ -1,0 +1,66 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+small{
+    width: 100%;
+    text-align: center;
+}
+
+li{
+    list-style: none;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search{
+    height: 100vh;
+    transition: all 1s;
+}
+
+.search-xs{
+    height: 30vh;
+    transition: all 1s;
+}
+
+#button{
+    width: 100%;
+}
+
+.form-control {
+    border-radius: 2.25rem;
+    height: 70px;
+    width: 540px;
+    font-size: 30px;
+}
+
+.btn{
+    border-radius: 2.25rem;
+    height: 70px;
+    width: 540px
+}
+
+#autocomplete{
+    display: none;
+    width: 100%;
+    background-color: white;
+    border-radius: 2px;
+    padding: 10px;
+    box-shadow: 1px 1px 12px #555;
+}
+
+#map {
+    height: 70vh;
+    display: none;
+  }
+
+  .fade-out{
+      opacity: 1;
+      transition: all 1s; 
+  }
